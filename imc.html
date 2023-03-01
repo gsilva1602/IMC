@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="imc.css">
+</head>
+<body onload="calcular()">
+    <h1>Cálculo de IMC</h1>
+    <section>
+        <p>Digite o peso <small>(ex.: 65kg)</small>:<input type="number" name="txtpeso" id="peso">Kg</p>
+        <p>Digite a altura <small>(ex.: 1.65m)</small>:<input type="number" name="txtaltura" id="altura">m</p>
+        <input type="button" value="Calcular" onclick="calcular()">
+    </section>
+    <p>
+        <div id="res">Seu IMC é: </div>
+    </p>
+    <footer>
+        <p>&copy; Gustavo Silva</p>
+    </footer>
+    <script src="imc.js"></script>
+</body>
+</html>
