@@ -1,4 +1,4 @@
 # IMC
 
-Programa desenvolvido durante os meus estudos particulares.
-Já é um avanço!
+Program developed during my private studies. 
+It's already a step forward!
